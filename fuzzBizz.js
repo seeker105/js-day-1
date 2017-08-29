@@ -1,3 +1,17 @@
+/**
+ * 
+ * @param {Number} counter
+ * @param {Array} vals 
+ * @param {String} msg
+ * 
+ * Counter should be an integer. Begin a counter and decrement by 1 until zero is reached.
+ * For each integer, check every element in 'vals' array. If the element is a string use it's position
+ * in the Array to run the FizzBuzz determination and include the string in the output line for that 
+ * integer if it matches. This is normally started with msg = ''. Any value submitted for msg will 
+ * be added on to the beginning of the output stream. 
+ */
+
+
 const fuzzBizz = (counter, vals, msg = '') => {
 
     if (counter < 1){
